@@ -1,4 +1,10 @@
 /*  BEM Methodology (Two Dashes Style) */
+
+.body  {
+    background-color: rgba(0, 0, 0, 0.879);
+    color: white;
+}
+
 .header{
     display: flex;
 }
@@ -34,4 +40,26 @@
     flex-direction: column;
     align-items: center;
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation{
+    margin: 5em 2em 8em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.presentation__title{
+    margin: 0em 2em 0em 0em;
+    font-size: 7em ;
+}
+
+.presentation__paragraph{
+    font-size: 2em;
+}
+
 

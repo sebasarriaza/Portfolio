@@ -9,28 +9,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="main.js"></script>
 </head>
-<body>
+<body class="body">
 
     <header class="header">
         <div class="nav">
             <div class="nav__home">
-                <a href="/#">
-                    <img src="img/logo-white.png">
-                </a>
+                <div class="nav__tittle">
+                    <a href="#">
+                        <img src="img/logo-white.png">
+                    </a>
+                </div>
             </div>
             <ul class="nav__menu">
                 <li class="nav__proyects">
-                    <a href="/proyects">
+                    <a href="#proyects">
                         <i class="fa fa-code">Proyects</i>
                     </a>
                 </li>
                 <li class="nav__about">
-                    <a href="/about">
+                    <a href="#about">
                         <i class="fa fa-info">About</i>
                     </a>
                 </li>
                 <li class="nav__contact">
-                    <a href="/contact">
+                    <a href="#contact">
                         <i class="fa fa-envelope">Contact</i>
                     </a>
                 </li>
@@ -38,16 +40,17 @@
         </div>
     </header>
 
-    <main class="home">
+    <main class="main">
 
     <!-- Añadir animaciones para rellenar la presentación -->
         <section class="presentation">
             <h1 class="presentation__title">SEBASTIAN<br>DEVELOPER</h1>
-            <h4>Welcome, my name is Sebastian</h4>
+            <p class="presentation__paragraph">Welcome, my name is Sebastian</p>
         <!-- Animación -->
         </section>
 
         <section class="proyects">
+            <a name="proyects"></a>
             <h2>My proyects</h2>
             <p>I've done some proyects for learn front-end development</p>
             <div class="proyects__motorbike">
@@ -63,9 +66,30 @@
         </section>
 
         <section class="about">
+            <a name="about"></a>
             <h2>What about me?</h2>
             <p>My name is Sebastian, I've been learning about desing and front-end development for three years <!-- during which I have learnt a lot of skills --></p>
             <p>I like simple and minimal designs</p>
+        </section>
+
+        <section>
+            <a name="contact"></a>
+            <form class="form">
+                <ul>
+                    <li>
+                        <label for="form__name">Name</label>
+                        <input class="form__name" type="text" name="form__name">
+                    </li>
+                    <li>
+                        <label for="form__email">Email</label>
+                        <input name="form__email" type="email" class="form__email">
+                    </li>
+                    <li>
+                        <label for="form__message">Message</label>
+                        <input name="form__message" type="text" class="form__Message">
+                    </li>
+                </ul>
+            </form>
         </section>
 
     </main>
