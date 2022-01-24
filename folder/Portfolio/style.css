@@ -72,7 +72,8 @@ i{
 .presentation{
     margin: 5em 2em 8em 2em;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     align-items: flex-end;
 }
 
