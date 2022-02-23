@@ -70,20 +70,27 @@ i{
 }
 
 .presentation{
-    margin: 5em 2em 8em 2em;
+    margin: 6em 1em 2em 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
-.presentation__title{
-    margin: 0em 2em 0em 0em;
-    font-size: 7em ;
+.presentation__welcome{
+    font-size: 3em;
+    margin: 0em 0em .2em 0em;
 }
 
-.presentation__paragraph{
-    font-size: 2em;
+.presentation__name{
+    margin: .2em 2em 2em 2em;
+    font-size: 6em;
 }
 
-
+.proyects{
+    margin: 5em 0em 2em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
