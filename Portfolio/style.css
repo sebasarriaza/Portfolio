@@ -94,3 +94,21 @@ i{
     justify-content: center;
     align-items: center;
 }
+
+.proyects__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: .5em;
+}
+
+.proyects__motorbike{
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+.proyects__fenderguitars{
+    border: 2px solid white;
+    border-radius: 10%;
+    transform: rotate(270deg);
+}
