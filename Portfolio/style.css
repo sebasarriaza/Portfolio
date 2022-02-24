@@ -83,8 +83,29 @@ i{
 }
 
 .presentation__name{
-    margin: .2em 2em 2em 2em;
+    margin: .2em 2em .2em 2em;
     font-size: 6em;
+}
+
+.presentation__background{
+    min-width: 60vw;
+    height: 50vh;
+    display: flex;
+}
+
+.presentation__video{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    box-shadow: inset 4px solid red;
+}
+
+.presentation__degree{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent 30%, blue);
+    position: absolute;
+    margin-left: 0vw;
 }
 
 .proyects{
@@ -105,6 +126,11 @@ i{
 .proyects__motorbike{
     border: 2px solid white;
     border-radius: 10%;
+}
+
+.proyects__motorbike:hover{
+    transform: scale(1.5);
+    transition: 1s;
 }
 
 .proyects__fenderguitars{
