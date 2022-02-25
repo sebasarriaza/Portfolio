@@ -65,9 +65,9 @@ i{
     flex-direction: column;
 }
 
-.main img{
+/* .main img{
     width: 20vh;
-}
+} */
 
 .presentation{
     margin: 6em 1em 2em 1em;
@@ -100,13 +100,13 @@ i{
     box-shadow: inset 10px 20px 4px solid red;
 }
 
-.presentation__degree{
+/* .presentation__degree{
     width: 100%;
     height: 100%;
     background: linear-gradient(to right, transparent 30%, blue);
     position: absolute;
     margin-left: 0vw;
-}
+} */
 
 .proyects{
     margin: 5em 0em 2em 0em;
@@ -116,16 +116,30 @@ i{
     align-items: center;
 }
 
+.proyects__title{
+    font-size: 3em;
+}
+
+.proyects__description{
+    font-size: 1.5em;
+    margin: 1.5em;
+}
+
 .proyects__grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: .5em;
+    gap: .8em;
 }
 
-.proyects__motorbike{
+.proyects__motorbike, .proyects__fenderguitars{
+    width: 30vh;
+    height: 30vh;
     border: 2px solid white;
     border-radius: 10%;
+    margin: 1.5em;
+    display: flex;
+    align-items: center;
 }
 
 .proyects__motorbike:hover{
@@ -133,8 +147,28 @@ i{
     transition: 1s;
 }
 
-.proyects__fenderguitars{
+.proyects__motorbike-a, .proyects__fenderguitars-a{
+    justify-content: center;
+}
+
+.proyects__motorbike-img, .proyects__fenderguitars-img{
+    width: 80%;
+}
+
+/* .proyects__fenderguitars{
     border: 2px solid white;
     border-radius: 10%;
-    transform: rotate(270deg);
+} */
+
+.proyects__fenderguitars:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.about{
+    font-size: 1.8em;
+}
+
+.contact{
+    font-size: 1.8em;
 }
