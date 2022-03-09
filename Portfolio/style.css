@@ -83,7 +83,8 @@ i{
 }
 
 .presentation__name{
-    margin: .2em 2em .2em 2em;
+    margin-top: .2em;
+    margin-bottom: .2em;
     font-size: 6em;
 }
 
@@ -142,8 +143,8 @@ i{
     align-items: center;
 }
 
-.proyects__motorbike:hover{
-    transform: scale(1.5);
+.proyects__motorbike:hover, .proyects__fenderguitars:hover{
+    transform: scale(1.4);
     transition: 1s;
 }
 
@@ -159,11 +160,6 @@ i{
     border: 2px solid white;
     border-radius: 10%;
 } */
-
-.proyects__fenderguitars:hover{
-    transform: scale(1.5);
-    transition: 1s;
-}
 
 .about{
     font-size: 1.8em;
