@@ -188,7 +188,7 @@ a{
 
 .contact{
     font-size: 1.8em;
-    margin-bottom: 2em;
+    margin: 5em 0em 2em 0em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,11 +198,27 @@ a{
     list-style: none;
 }
 
-.form__name, .form__email, .form__message{
+.form__name, .form__email, .form__message, .form__submit{
     margin: 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.form__name-input, .form__email-input{
+    margin: 1em;
+    width: 20em;
+}
+
+.form__message-input{
+    width: 30em;
+    height: 10em;
+    margin: 1em;
+}
+
+.form__submit-input{
+    width: 30em;
+    height: 2em;
 }
 
 .footer{
