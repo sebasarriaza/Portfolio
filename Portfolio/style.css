@@ -188,4 +188,29 @@ a{
 
 .contact{
     font-size: 1.8em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__list{
+    list-style: none;
+}
+
+.form__name, .form__email, .form__message{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    border-top: grey solid 1px;
+    margin: 0vmax 5vmax;
+}
+
+.footer__description{
+    font-size: 1.2em;
+    margin: 1em;
 }
