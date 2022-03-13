@@ -7,19 +7,16 @@
     <title>Sebastian Arriaza</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
     <link rel="icon" type="image/png" href="images/logo-white.png">
 </head>
 <body class="body">
-
     <header class="header">
         <div class="nav">
             <div class="nav__home">
-                <!-- <div class="nav__tittle"> -->
                     <a href="#">
                         <img src="images/logo-white.png" class="nav__img">
                     </a>
-                <!-- </div> -->
             </div>
             <ul class="nav__menu">
                 <li class="nav__proyects">
@@ -46,23 +43,22 @@
 
     <main class="main">
 
-        <!-- Añadir animaciones -->
         <section class="presentation">
-            <h3 class="presentation__welcome">Welcome, my name is</h3>
-            <h1 class="presentation__name">Sebastian Arriaza</h1>
+            <div class="presentation__foreground">
+                <h3 class="presentation__welcome">Welcome, my name is</h3>
+                <h1 class="presentation__name">Sebastian Arriaza</h1>
+            </div>
             <div class="presentation__background">
                 <video class="presentation__video" src="videos/background.mp4" autoplay loop muted>
                 </video>
-                <div class="presentation__degree"></div>
             </div>
-            <!-- Animación -->
         </section>
 
         <section class="proyects">
             <a name="proyects"></a>
             <h2 class="proyects__title">My proyects</h2>
-            <p class="proyects__description">I've done some proyects for learn front-end development</p>
-            <div class="proyects__grid">
+            <p class="proyects__description">I've done some proyects to learn front-end development</p>
+            <div class="proyects__gallery">
                 <div class="proyects__motorbike">
                     <a class="proyects__motorbike-a" href="../Motorbike/Work in prorgess.html" target="_blank">
                         <img class="proyects__motorbike-img" src="images/proyects__motorbike.png">
@@ -78,7 +74,7 @@
 
         <section class="about">
             <a name="about"></a>
-            <h2>What about me?</h2>
+            <h2 class="about__title">What about me?</h2>
             <p class="about__description">My name is Sebastian, I've been learning about desing and front-end development for three years during which I have learnt a lot of skills and technologies like Lightroom, Photoshop, AdobeXD, HTML, CSS, JavaScript, Python, GIT, Bash, Linux... I like clean and minimal web designs</p>
             <p class="about__description">For more information, you can visit my social media:</p>
             <ul class="about__socialmedia">
@@ -98,7 +94,7 @@
 
         <section class="contact">
             <a name="contact"></a> 
-            <h2>Contact me here!</h2>
+            <h2 class="contact__title">Contact me here!</h2>
             <form class="form">
                 <ul class="form__list">
                     <li class="form__name">
@@ -111,7 +107,7 @@
                     </li>
                     <li class="form__message">
                         <label for="form__message">Message</label>
-                        <input class="form__message-input" name="form__message" type="text">
+                        <textarea class="form__message-input" name="form__message" type="textarea"></textarea>
                     </li>
                     <li class="form__submit">
                         <input class="form__submit-input" type="submit" value="Send">

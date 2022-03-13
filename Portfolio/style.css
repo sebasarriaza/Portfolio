@@ -1,7 +1,7 @@
 /*  BEM Methodology (Two Dashes Style) */
 
 .body{
-    background-color: rgba(0, 0, 0, 0.879);
+    background-color: rgb(27, 27, 28);
     color: white;
     font-family: sans-serif;
     margin: 0;
@@ -67,6 +67,9 @@ a{
 
 .presentation{
     margin: 6em 1em 2em 1em;
+}
+
+.presentation__foreground{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,19 +77,23 @@ a{
 }
 
 .presentation__welcome{
-    font-size: 3em;
+    font-size: 4vw;
     margin: 0em 0em .2em 0em;
+    z-index: 10;
 }
 
 .presentation__name{
-    font-size: 6em;
+    font-size: 7vw;
     margin-top: .2em;
     margin-bottom: .2em;
+    z-index: 10;
 }
 
 .presentation__background{
-    min-width: 60vw;
-    height: 50vh;
+    min-width: 100vw;
+    height: 55vh;
+    margin-top: -23vh;
+    margin-left: -29vw;
     display: flex;
 }
 
@@ -94,40 +101,30 @@ a{
     width: 100%;
     height: 100%;
     opacity: 50%;
-    box-shadow: inset 10px 20px 4px solid red;
 }
 
-/* .presentation__degree{
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, transparent 30%, blue);
-    position: absolute;
-    margin-left: 0vw;
-} */
-
 .proyects{
-    margin: 5em 0em 2em 0em;
+    font-size: 1.8em;
+    margin: 2em 0em 2em 0em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* scroll-margin-top: 100px; */
 }
 
 .proyects__title{
-    font-size: 3em;
+    margin-top: 2em;
 }
 
 .proyects__description{
-    font-size: 1.5em;
+    text-align: center;
     margin: 1.5em;
 }
 
-.proyects__grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: .8em;
+.proyects__gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .proyects__motorbike, .proyects__fenderguitars{
@@ -155,10 +152,14 @@ a{
 
 .about{
     font-size: 1.8em;
-    margin: 5em 0em 2em 0em;
+    margin: 2em 0em 2em 0em;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.about__title{
+    margin-top: 2em;
 }
 
 .about__description{
@@ -188,10 +189,14 @@ a{
 
 .contact{
     font-size: 1.8em;
-    margin: 5em 0em 2em 0em;
+    margin: 2em 0em 2em 0em;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.contact__title{
+    margin-top: 1em;
 }
 
 .form__list{
@@ -206,19 +211,34 @@ a{
 }
 
 .form__name-input, .form__email-input{
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    width: 18vw;
+    min-width: 15em;
     margin: 1em;
-    width: 20em;
 }
 
 .form__message-input{
-    width: 30em;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    width: 28vw;
+    min-width: 20em;
     height: 10em;
     margin: 1em;
+    resize: none;
 }
 
 .form__submit-input{
-    width: 30em;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 28vw;
+    min-width: 20em;
     height: 2em;
+    cursor: pointer;
 }
 
 .footer{
