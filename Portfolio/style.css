@@ -46,7 +46,7 @@ a{
     list-style: none;
 }
 
-.nav__proyects, .nav__about, .nav__contact{
+.nav__projects, .nav__about, .nav__contact{
     width: 20%;
     margin: .4em 0;
     padding: 0 4vmin;
@@ -103,7 +103,7 @@ a{
     opacity: 50%;
 }
 
-.proyects{
+.projects{
     font-size: 1.8em;
     margin: 2em 0em 2em 0em;
     display: flex;
@@ -112,22 +112,22 @@ a{
     align-items: center;
 }
 
-.proyects__title{
+.projects__title{
     margin-top: 2em;
 }
 
-.proyects__description{
+.projects__description{
     text-align: center;
     margin: 1.5em;
 }
 
-.proyects__gallery{
+.projects__gallery{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.proyects__game, .proyects__fenderguitars, .proyects__motorbike{
+.projects__game, .projects__fenderguitars, .projects__motorbike{
     width: 30vh;
     height: 30vh;
     border: 2px solid white;
@@ -137,16 +137,16 @@ a{
     align-items: center;
 }
 
-.proyects__game:hover, .proyects__fenderguitars:hover, .proyects__motorbike:hover{
+.projects__game:hover, .projects__fenderguitars:hover, .projects__motorbike:hover{
     transform: scale(1.4);
     transition: 1s;
 }
 
-.proyects__game-a, .proyects__fenderguitars-a, .proyects__motorbike-a{
+.projects__game-a, .projects__fenderguitars-a, .projects__motorbike-a{
     justify-content: center;
 }
 
-.proyects__game-img, .proyects__fenderguitars-img, .proyects__motorbike-img{
+.projects__game-img, .projects__fenderguitars-img, .projects__motorbike-img{
     width: 80%;
 }
 
