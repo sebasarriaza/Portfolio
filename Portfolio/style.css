@@ -127,7 +127,7 @@ a{
     justify-content: center;
 }
 
-.proyects__motorbike, .proyects__fenderguitars{
+.proyects__game, .proyects__fenderguitars, .proyects__motorbike{
     width: 30vh;
     height: 30vh;
     border: 2px solid white;
@@ -137,16 +137,16 @@ a{
     align-items: center;
 }
 
-.proyects__motorbike:hover, .proyects__fenderguitars:hover{
+.proyects__game:hover, .proyects__fenderguitars:hover, .proyects__motorbike:hover{
     transform: scale(1.4);
     transition: 1s;
 }
 
-.proyects__motorbike-a, .proyects__fenderguitars-a{
+.proyects__game-a, .proyects__fenderguitars-a, .proyects__motorbike-a{
     justify-content: center;
 }
 
-.proyects__motorbike-img, .proyects__fenderguitars-img{
+.proyects__game-img, .proyects__fenderguitars-img, .proyects__motorbike-img{
     width: 80%;
 }
 
