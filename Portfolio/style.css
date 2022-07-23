@@ -135,11 +135,12 @@ a{
     margin: 1.5em;
     display: flex;
     align-items: center;
+    transition: 0.8s;
 }
 
 .projects__game:hover, .projects__fenderguitars:hover, .projects__motorbike:hover{
     transform: scale(1.4);
-    transition: 1s;
+    transition: 0.8s;
 }
 
 .projects__game-a, .projects__fenderguitars-a, .projects__motorbike-a{
@@ -231,14 +232,21 @@ a{
 }
 
 .form__submit-input{
-    color: white;
-    background: rgba(0, 0, 0, 0);
+    font-size: .6em;
+    font-weight: 600;
     border: 0;
-    border-bottom: 2px solid rgb(255, 255, 255);
-    width: 28vw;
+    width: 34vw;
     min-width: 20em;
     height: 2em;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.form__submit-input:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+    transition-property: all;
+    /* background-size: 300% 100%; */
 }
 
 .footer{

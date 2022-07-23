@@ -14,25 +14,25 @@
     <header class="header">
         <div class="nav">
             <div class="nav__home">
-                    <a href="#">
+                    <a class="link" href="#">
                         <img src="images/logo-white.png" class="nav__img">
                     </a>
             </div>
             <ul class="nav__menu">
                 <li class="nav__projects">
-                    <a href="#projects" class="link">
+                    <a class="link" href="#projects">
                         <i class="nav__icon fa fa-code"></i>
                          Projects
                     </a>
                 </li>
                 <li class="nav__about">
-                    <a href="#about" class="link">
+                    <a class="link" href="#about">
                         <i class="nav__icon fa fa-info"></i>
                         About
                     </a>
                 </li>
                 <li class="nav__contact">
-                    <a href="#contact" class="link">
+                    <a class="link" href="#contact">
                         <i class="nav__icon fa fa-envelope"></i>
                         Contact
                     </a>
@@ -80,7 +80,7 @@
         <section class="about">
             <a name="about"></a>
             <h2 class="about__title">What about me?</h2>
-            <p class="about__description">My name is Sebastian, I've been learning about desing and front-end development for three years during which I have learnt a lot of skills and technologies like Lightroom, Photoshop, AdobeXD, HTML, CSS, JavaScript, Python, GIT, Bash, Linux... I like clean and minimal web designs</p>
+            <p class="about__description">My name is Sebastian, I've been learning about desing and front-end development for three years during which I have learnt a lot of skills and technologies like JavaScript, CSS, HTML, Python, GIT, Bash, Linux, Photoshop, Lightroom, AdobeXD...</p>
             <p class="about__description">For more information, you can visit my social media:</p>
             <ul class="about__socialmedia">
                 <li class="about__github">
@@ -115,7 +115,9 @@
                         <textarea class="form__message-input" name="form__message" type="textarea"></textarea>
                     </li>
                     <li class="form__submit">
-                        <input class="form__submit-input" type="submit" value="Send">
+                        <a class="link" href="#contact" target="_blank">
+                            <input id="submit" class="form__submit-input" type="submit" value="Send">
+                        </a>
                     </li>
                 </ul>
             </form>
