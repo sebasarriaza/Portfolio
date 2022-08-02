@@ -137,7 +137,7 @@ a{
 }
 
 .projects{
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin: 2em 0em 0em 0em;
     display: flex;
     flex-direction: column;
@@ -185,7 +185,7 @@ a{
 }
 
 .about{
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin: 2em 0em 0em 0em;
     display: flex;
     flex-direction: column;
@@ -233,7 +233,7 @@ a{
 }
 
 .contact{
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin: 2em 0em 2em 0em;
     display: flex;
     flex-direction: column;
