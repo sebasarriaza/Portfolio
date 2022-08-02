@@ -1,3 +1,4 @@
+//Header animation
 const $ = name => document.querySelector('.' + name).classList.add(name + '-animation');
 const $2 = name => document.querySelector('.' + name).classList.remove(name + '-animation');
 
@@ -24,3 +25,24 @@ function headerAnimation() {
 };
 
 window.addEventListener('scroll', headerAnimation);
+
+
+// Contact form
+const form = document.querySelector('#form');
+
+form.addEventListener('submit', handleSubmit);
+
+async function handleSubmit(event){
+    event.preventDefault();
+    const formData = new FormData(form);
+    const response = await fetch(this.action, {
+        method: this.method,
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    });
+    if(response.ok){
+        form.reset();
+    }
+}
