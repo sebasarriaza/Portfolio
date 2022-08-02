@@ -22,10 +22,6 @@ a{
     transition: all 0.5s ease-in-out;
 }
 
-.header-animation{
-    transition: all 0.5s ease-in-out;
-}
-
 .nav{
     margin: 0vmax 5vmax;
     border-bottom: grey solid 1px;
@@ -303,7 +299,7 @@ a{
     margin: 1em;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     .nav{
         margin: 0;
     }

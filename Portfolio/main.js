@@ -4,7 +4,6 @@ const $2 = name => document.querySelector('.' + name).classList.remove(name + '-
 
 function headerAnimation() {
     if (document.documentElement.scrollTop != 0) {
-        let header = $('header');
         let nav = $('nav');
         let nav__home = $('nav__home');
         let nav__img = $('nav__img');
@@ -13,7 +12,6 @@ function headerAnimation() {
         let nav__about = $('nav__about');
         let nav__contact = $('nav__contact');
     } else{
-        let header = $2('header');
         let nav = $2('nav');
         let nav__home = $2('nav__home');
         let nav__img = $2('nav__img');
@@ -28,7 +26,7 @@ window.addEventListener('scroll', headerAnimation);
 
 
 // Contact form
-const form = document.querySelector('#form');
+const form = document.querySelector('#form')
 
 form.addEventListener('submit', handleSubmit);
 
