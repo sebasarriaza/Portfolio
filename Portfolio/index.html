@@ -14,7 +14,9 @@
         <div id="nav" class="nav">
             <div class="nav__home">
                     <a class="link" href="#">
-                        <img src="/../images/logo.png" class="nav__img">
+                        <h1 id="nav__name" class="nav__name">
+                            SEBASARRIAZA
+                        </h1>
                     </a>
             </div>
             <ul class="nav__menu">
@@ -42,16 +44,17 @@
 
     <main class="main">
 
-        <section class="presentation">
-            <div class="presentation__foreground">
-                <h3 class="presentation__welcome">Welcome, my name is</h3>
-                <h1 class="presentation__name">Sebastian Arriaza</h1>
-            </div>
-            <div class="presentation__background">
-                <video class="presentation__video" src="videos/background.mp4" autoplay loop muted>
+        <section class="background">
+                <video class="background__video" src="/../videos/background.mp4" autoplay loop muted>
                 </video>
-            </div>
         </section>
+
+        <section class="presentation">
+                <h1 class="presentation__name">
+                    S<span id="presentation__span" class="presentation__span">EBASARRIAZA</span>
+                </h1>
+        </section>
+
 
         <section class="projects">
             <a name="projects"></a>
@@ -78,9 +81,9 @@
 
         <section class="about">
             <a name="about"></a>
-            <h2 class="about__title">What about me?</h2>
-            <p class="about__description">My name is Sebastian, I've been learning about desing and front-end development for three years during which I have learnt a lot of skills and technologies like JavaScript, CSS, HTML, Tailwind, Python, GIT, Bash, Linux, Photoshop, Lightroom, AdobeXD...</p>
-            <p class="about__description">For more information, you can visit my social media:</p>
+            <h2 class="about__title">About me</h2>
+            <p class="about__description">I'm a front-end developer. In the last four years I learnt a lot of skills and technologies like React, JavaScript, CSS, HTML, Tailwind, Python, GIT, Bash, Linux, Photoshop, Lightroom, AdobeXD...</p>
+            <p class="about__description">For more information, visit my social media:</p>
             <ul class="about__socialmedia">
                 <li class="about__github">
                     <a class="link" href="https://github.com/SebastianArriaza" target="_blank">
@@ -124,11 +127,11 @@
 
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
         <h4 class="footer__description">
             Designed by Sebastian Arriaza
         </h4>
-    </footer>
+    </footer> -->
 
     <script src="main.js"></script>
 
