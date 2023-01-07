@@ -86,12 +86,19 @@ a{
 
 .nav__projects, .nav__about, .nav__contact{
     width: 20%;
-    margin: .4em 0;
-    padding: 0 4vmin;
+    margin: .2em 4vmin;
+    padding: .2em .5em;
     font-size: 3vmin;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom: transparent solid 2px;
+    border-spacing: 5em;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__projects:hover, .nav__about:hover, .nav__contact:hover{
+    border-bottom: white solid 2px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -321,11 +328,12 @@ a{
 
     .nav__name{
         width: 90%;
-        
+        opacity: 1;
     }
 
     .nav__name-animation {
         width: 60%;
+        opacity: 0;
     }
 
     .nav__menu{
