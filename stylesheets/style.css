@@ -141,16 +141,6 @@ a{
     margin-bottom: .2em;
 }
 
-/* .presentation__span{
-    opacity: 1;
-    transition: all 0.5s ease-in-out;
-}
-
-.presentation__span-animation{
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-} */
-
 .projects{
     font-size: 1.8em;
     margin: 2em 0em 0em 0em;
