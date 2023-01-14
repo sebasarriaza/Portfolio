@@ -1,9 +1,3 @@
-//Mejoras:
-// No mostrar siguiente pregunta cuando ya no quedan más preguntas
-// Añadir video de confeti al terminar la partida
-// No mostrar puntuación negatica (se puede usar un if para comprobar si la puntuación es menor que cero)
-// Formulario para añadir preguntas (se puede hacer con push al array y local storage para introducir los datos)
-
 // Declarar variables
 let numeroPuntos;
 let numeroPregunta;
