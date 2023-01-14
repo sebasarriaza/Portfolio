@@ -1,6 +1,6 @@
 /*  BEM Methodology (Two Dashes Style) */
 
-/* @font-face {
+@font-face {
     font-family: 'Philly Sans';
     src: url(/fonts/PhillySans.otf);
 }
@@ -359,4 +359,4 @@ a{
         width: 18em;
         margin: 1em 0 1em 0;
     }
-} */
+}
