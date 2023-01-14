@@ -22,7 +22,7 @@ a{
     backdrop-filter: blur(20px);
     width: 100%;
     position: fixed;
-    z-index: 20;
+    z-index: 10;
     transition: all 0.5s ease-in-out;
 }
 
@@ -40,32 +40,14 @@ a{
 }
 
 .nav__home{
+    font-family: 'Philly Sans';
     padding: 3vh 2vh;
+    opacity: 0;
     transition: all 0.5s ease-in-out;
 }
 
 .nav__home-animation{
     padding: 2vh 2vh;
-    transition: all 0.5s ease-in-out;
-}
-
-/* .nav__img{
-    width: 80%;
-    transition: all 0.5s ease-in-out;
-}
-
-.nav__img-animation{
-    width: 60%;
-    transition: all 0.5s ease-in-out;
-} */
-
-.nav__name{
-    font-family: 'Philly Sans';
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-}
-
-.nav__name-animation{
     opacity: 1;
     transition: all 0.5s ease-in-out;
 }
@@ -118,27 +100,49 @@ a{
 
 .background{
     margin: 13em 5em;
-    position: absolute;
+    position: fixed;
+    z-index: -10;
 }
 
 .background__video{
     height: 50vh;
     opacity: 50%;
+    position: absolute;
+    transition: all 1s ease-in-out;
+}
+
+.background__video-animation{
+    height: 50vh;
+    position: absolute;
+    opacity: 0;
+    transform: scale(6);
+    transition: all 1s ease-in-out;
 }
 
 .presentation{
-    margin: 14em 1em 10em 30%;
-    /* position: sticky; */
-    top: 14em;
-    z-index: 10;
+    margin: 14em 0em 14em 0em;
+    height: 40em;
 }
 
+.presentation__sticky{
+    position: sticky;
+    top: 15em;
+}
 
-.presentation__name{
+.presentation__title{
     font-family: 'Philly Sans';
     font-size: 7vw;
-    margin-top: .2em;
-    margin-bottom: .2em;
+    margin-top: 0em;
+    margin-bottom: 0;
+    margin-left: 30%;
+}
+
+.presentation__description{
+    padding-top: .5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .projects{
@@ -310,17 +314,14 @@ a{
     .nav{
         margin: 0;
     }
-    
+
     .nav__home{
         padding: 1vh 0vh 1vh 1vh;
-    }
-
-    .nav__name{
         width: 90%;
         opacity: 1;
     }
 
-    .nav__name-animation {
+    .nav__home-animation {
         width: 60%;
         opacity: 0;
     }
