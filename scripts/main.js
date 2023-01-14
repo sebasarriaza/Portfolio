@@ -13,7 +13,6 @@ function headerAnimation() {
     let nav__about = $("nav__about");
     let nav__contact = $("nav__contact");
     let background__video = $("background__video");
-    // let presentation__span = $('presentation__span');
   } else {
     let nav = $2("nav");
     let nav__home = $2("nav__home");
@@ -22,22 +21,10 @@ function headerAnimation() {
     let nav__about = $2("nav__about");
     let nav__contact = $2("nav__contact");
     let background__video = $2("background__video");
-    // let presentation__span = $2("presentation__span");
   }
 }
 
-// function hideName() {
-//   if (document.documentElement.scrollTop < 136) {
-//     document.getElementById("nav__span").innerHTML = "";
-//     document.getElementById("presentation__span").innerHTML = "EBASARRIAZA";
-// } else {
-//     document.getElementById("nav__span").innerHTML = "EBASARRIAZA";
-//     document.getElementById("presentation__span").innerHTML = "";
-//   }
-// }
-
 window.addEventListener("scroll", headerAnimation);
-// window.addEventListener("scroll", hideName);
 
 // Contact form
 const form = document.querySelector("#form");
