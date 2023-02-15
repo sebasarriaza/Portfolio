@@ -1,0 +1,7 @@
+body{
+    background-color: rgb(27, 27, 28);
+    color: rgb(255, 225, 58);
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
