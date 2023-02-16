@@ -1,6 +1,8 @@
-function SectionTemplate({ title, description, children }) {
+function SectionTemplate({ title, description, a, children }) {
+  const titleLowercased = title.toLowerCase();
   return (
     <section>
+      <a name={titleLowercased}></a>
       <h2>{title}</h2>
       <p>{description}</p>
       {children}
