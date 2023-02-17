@@ -5,7 +5,7 @@ function AboutSection() {
     <section>
       <SectionTemplate title="About">
         <p>
-          I am a frontend web developer. Skills: React, JavaScript, CSS, HTML, Tailwind, GIT, Bash, Linux, Figma, Photoshop and Lightroom.
+          Hi, my name is Sebas. I am a frontend web developer with 2 years of experience developing websites. Skills: React, JavaScript, CSS, HTML, Tailwind, GIT, Bash, Linux, Figma, Photoshop and Lightroom.
         </p>
         </SectionTemplate>
     </section>
