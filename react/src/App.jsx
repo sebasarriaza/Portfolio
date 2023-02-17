@@ -6,6 +6,9 @@ import Nav from "./components/Nav";
 import ProjectsSection from "./components/ProjectsSection";
 import AboutSection from "./components/AboutSection";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +16,7 @@ function App() {
       <Nav />
       <ProjectsSection />
       <AboutSection />
+      <FontAwesomeIcon icon={faInstagram} />
     </div>
   );
 }
