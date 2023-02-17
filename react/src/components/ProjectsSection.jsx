@@ -3,7 +3,7 @@ import Project from "./Project.jsx";
 
 function ProjectsSection() {
   return (
-    <div>
+    <section>
       <SectionTemplate title="Projects">
         <Project
           title="Game"
@@ -18,7 +18,7 @@ function ProjectsSection() {
           link="./src/assets/projects/Motorbike/Work in prorgess.html"
         />
       </SectionTemplate>
-    </div>
+    </section>
   );
 }
 

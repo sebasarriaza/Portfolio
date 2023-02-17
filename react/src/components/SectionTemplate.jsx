@@ -1,12 +1,13 @@
-function SectionTemplate({ title, description, a, children }) {
+function SectionTemplate({ title, description, children }) {
   const titleLowercased = title.toLowerCase();
+  const descriptionConditional = description ? <p>{description}</p> : null;
   return (
-    <section>
+    <>
       <a name={titleLowercased}></a>
       <h2>{title}</h2>
-      <p>{description}</p>
+      {descriptionConditional}
       {children}
-    </section>
+    </>
   );
 }
 
