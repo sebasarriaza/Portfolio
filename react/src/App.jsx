@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Nav from "./components/Nav";
 import ProjectsSection from "./components/ProjectsSection";
 import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
@@ -16,6 +17,7 @@ function App() {
       <Nav />
       <ProjectsSection />
       <AboutSection />
+      <ContactSection />
     </div>
   );
 }
