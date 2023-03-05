@@ -1,4 +1,5 @@
 import SectionTemplate from './SectionTemplate';
+import Input from './Input';
 
 function ContactSection() {
   return (
@@ -9,18 +10,9 @@ function ContactSection() {
       >
         <form id="form" action="https://formspree.io/f/myyvgpoe" method="POST">
           <ul>
-            <li>
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name"/>
-            </li>
-            <li>
-              <label htmlFor="email">Email</label>
-              <input type="email" name="email"/>
-            </li>
-            <li>
-              <label htmlFor="message">Message</label>
-              <input type="text" name="message"/>
-            </li>
+            <Input type={'Name'}></Input>
+            <Input type={'Email'}></Input>
+            <Input type={'Message'}></Input>
           </ul>
         </form>
       </SectionTemplate>
