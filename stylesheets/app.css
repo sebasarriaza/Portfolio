@@ -1,0 +1,375 @@
+@font-face {
+    font-family: 'Philly Sans';
+    src: url(/fonts/PhillySans.otf);
+}
+
+.body{
+    background-color: rgb(27, 27, 28);
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+.header{
+    backdrop-filter: blur(20px);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav{
+    margin: 0vmax 5vmax;
+    border-bottom: grey solid 1px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-animation{
+    margin: 0vmax 2vmax;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__home{
+    font-family: 'Philly Sans';
+    padding: 3vh 2vh;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__home-animation{
+    padding: 2vh 2vh;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__menu{
+    padding: 0vh 6vh 0vh 0vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__menu-animation{
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__projects, .nav__about, .nav__contact{
+    width: 20%;
+    margin: .2em 4vmin;
+    padding: .2em .5em;
+    font-size: 3vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: transparent solid 2px;
+    border-spacing: 5em;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__projects:hover, .nav__about:hover, .nav__contact:hover{
+    border-bottom: white solid 2px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__projects-animation, .nav__about-animation, .nav__contact-animation{
+    font-size: 2.5vmin;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav__icon{
+    margin-right: .3em;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.background{
+    margin: 13em 5em;
+    position: fixed;
+    z-index: -10;
+}
+
+.background__video{
+    height: 50vh;
+    opacity: 50%;
+    position: absolute;
+    transition: all 1s ease-in-out;
+}
+
+.background__video-animation{
+    height: 50vh;
+    position: absolute;
+    opacity: 0;
+    transform: scale(6);
+    transition: all 1s ease-in-out;
+}
+
+.presentation{
+    margin: 14em 0em 14em 0em;
+    height: 40em;
+}
+
+.presentation__sticky{
+    position: sticky;
+    top: 15em;
+}
+
+.presentation__title{
+    font-family: 'Philly Sans';
+    font-size: 7vw;
+    margin-top: 0em;
+    margin-bottom: 0;
+    margin-left: 30%;
+}
+
+.presentation__description{
+    padding-top: .5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.projects{
+    font-size: 1.8em;
+    margin: 2em 0em 0em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects__title{
+    margin-top: 4em;
+}
+
+.projects__description{
+    text-align: center;
+    margin: 1.5em;
+}
+
+.projects__gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects__poker, .projects__game, .projects__fenderguitars, .projects__motorbike{
+    width: 30vh;
+    height: 30vh;
+    border: 2px solid white;
+    border-radius: 10%;
+    margin: 0.8em;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.projects__poker:hover, .projects__game:hover, .projects__fenderguitars:hover, .projects__motorbike:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.projects__poker-a, .projects__game-a, .projects__fenderguitars-a, .projects__motorbike-a{
+    justify-content: center;
+}
+
+.projects__poker-img, .projects__game-img, .projects__fenderguitars-img, .projects__motorbike-img{
+    width: 80%;
+}
+
+.projects__poker-img{
+    filter: invert(100%);
+}
+
+.about{
+    font-size: 1.5em;
+    margin: 2em 0em 0em 0em;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__title{
+    align-self: center;
+    margin-top: 4em;
+    margin-bottom: 0.5em;
+}
+
+.about__description{
+    text-align: center;
+    line-height: 1.3em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.about__technologies{
+    line-height: .5em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.about__socialmedia{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.about__github{
+    margin-left:1em;
+    margin-right: 1em;
+    padding: 0.8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__github:hover{
+    box-shadow:black 0 0 20px;
+    border-radius: 10%;
+}
+
+.about__github a{
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact{
+    font-size: 1.8em;
+    margin: 2em 0em 2em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__title{
+    margin-top: 4em;
+    margin-bottom: 0.4em;
+}
+
+.form__list{
+    padding: 0;
+    list-style: none;
+    font-size: 0.8em;
+}
+
+.form__name, .form__email, .form__message, .form__submit{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__name-input, .form__email-input{
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    width: 16em;
+    margin: 1em;
+}
+
+.form__message-input{
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    width: 26em;
+    height: 8em;
+    margin: 1em;
+    resize: none;
+}
+
+.form__submit-input{
+    margin: 2em;
+    font-weight: 600;
+    border: 0;
+    width: 32em;
+    height: 2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form__submit-input:hover{
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer{
+    border-top: grey solid 1px;
+    margin: 0vmax 5vmax;
+}
+
+.footer__description{
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+@media (max-width: 480px) {
+    .nav{
+        margin: 0;
+    }
+
+    .nav__home{
+        padding: 1vh 0vh 1vh 1vh;
+        width: 90%;
+        opacity: 1;
+    }
+
+    .nav__home-animation {
+        width: 60%;
+        opacity: 0;
+    }
+
+    .nav__menu{
+        padding: 0;
+    }
+
+    .background{
+        margin-left: -5vw;       
+    }
+
+    .about{
+        font-size: 1.3em;
+    }
+
+    .about__description{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    
+    .about__technologies{
+        line-height: 1.3em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .about__github{
+        padding: 0;
+    }
+
+    .form__name-input, .form__email-input{
+        width: 12em;
+    }
+    
+    .form__message-input{
+        width: 16em;
+    }
+    
+    .form__submit-input{
+        width: 18em;
+        margin: 1em 0 1em 0;
+    }
+}
