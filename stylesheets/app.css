@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'Philly Sans';
-    src: url(/fonts/PhillySans.otf);
+    font-family: Magz;
+    src: url(../fonts/Magz.otf);
+    font-weight: 600;
 }
 
 .body{
