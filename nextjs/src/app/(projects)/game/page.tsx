@@ -170,8 +170,6 @@ function page() {
     </a>
   </div>
 
-  <script src="main.js"></script>
-
     </div>
   )
 }

@@ -21,7 +21,7 @@ function page() {
         Jugar de nuevo
       </button>
     </a>
-    <a className="fEnlaceBoton" href="index.html">
+    <a className="fEnlaceBoton" href="/game">
       <button className="fBoton">
         Volver al menú
       </button>
