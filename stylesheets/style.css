@@ -1,8 +1,9 @@
 /*  BEM Methodology (Two Dashes Style) */
 
-/* @font-face {
-    font-family: 'Philly Sans';
-    src: url(/fonts/PhillySans.otf);
+@font-face {
+    font-family: Magz;
+    src: url(../fonts/Magz.otf);
+    font-weight: 600;
 }
 
 .body{
@@ -169,7 +170,7 @@ a{
     justify-content: center;
 }
 
-.projects__game, .projects__fenderguitars, .projects__motorbike{
+.projects__poker, .projects__game, .projects__fenderguitars, .projects__motorbike{
     width: 30vh;
     height: 30vh;
     border: 2px solid white;
@@ -180,28 +181,32 @@ a{
     transition: 0.5s;
 }
 
-.projects__game:hover, .projects__fenderguitars:hover, .projects__motorbike:hover{
+.projects__poker:hover, .projects__game:hover, .projects__fenderguitars:hover, .projects__motorbike:hover{
     transform: scale(1.15);
     transition: 0.5s;
 }
 
-.projects__game-a, .projects__fenderguitars-a, .projects__motorbike-a{
+.projects__poker-a, .projects__game-a, .projects__fenderguitars-a, .projects__motorbike-a{
     justify-content: center;
 }
 
-.projects__game-img, .projects__fenderguitars-img, .projects__motorbike-img{
+.projects__poker-img, .projects__game-img, .projects__fenderguitars-img, .projects__motorbike-img{
     width: 80%;
 }
 
+.projects__poker-img{
+    filter: invert(100%);
+}
+
 .about{
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin: 2em 0em 0em 0em;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .about__title{
+    align-self: center;
     margin-top: 4em;
     margin-bottom: 0.5em;
 }
@@ -209,6 +214,12 @@ a{
 .about__description{
     text-align: center;
     line-height: 1.3em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.about__technologies{
+    line-height: .5em;
     margin-left: 3em;
     margin-right: 3em;
 }
@@ -223,7 +234,7 @@ a{
 .about__github{
     margin-left:1em;
     margin-right: 1em;
-    padding: 22%;
+    padding: 0.8em;
     display: flex;
     flex-direction: column;
 }
@@ -231,7 +242,6 @@ a{
 .about__github:hover{
     box-shadow:black 0 0 20px;
     border-radius: 10%;
-    padding: 22%;
 }
 
 .about__github a{
@@ -342,6 +352,12 @@ a{
         margin-left: 2em;
         margin-right: 2em;
     }
+    
+    .about__technologies{
+        line-height: 1.3em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
 
     .about__github{
         padding: 0;
@@ -359,4 +375,4 @@ a{
         width: 18em;
         margin: 1em 0 1em 0;
     }
-} */
+}
