@@ -18,6 +18,7 @@ function ProjectsSection() {
         <Project
           title="Game"
           image={projects__game.src}
+          link="https://sebasarriaza.github.io/Game/"
         />
         <Project
           title="Fender Guitars"

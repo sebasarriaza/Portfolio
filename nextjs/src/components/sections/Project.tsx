@@ -17,7 +17,7 @@ function Project({
     <div>
       <h3>{title}</h3>
       <Link href={link}>
-        <Image src={image} alt="" width={200} height={200}></Image>
+      {image && <Image src={image} alt="" width={200} height={200} />}
       </Link>
     </div>
   );
