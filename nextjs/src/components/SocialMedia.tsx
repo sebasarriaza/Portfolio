@@ -12,9 +12,11 @@ function SocialMedia({ icon, userName, link }: SocialMediaProps) {
 
   return (
     <div>
-      <a href={link} target='_blank'>
-        <FontAwesomeIcon icon={icon} size='10x' />
-        <h3>{userName}</h3>
+      <a href={link} target="_blank">
+        <div className="flex items-center p-5 gap-4">
+          <FontAwesomeIcon className="w-8" icon={icon} />
+          <h3 className="hidden">{userName}</h3>
+        </div>
       </a>
     </div>
   );

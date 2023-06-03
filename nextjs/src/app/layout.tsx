@@ -6,8 +6,8 @@ import Navbar from "@/components/Navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const russo = Russo_One({
-  weight: ['400'],
-  subsets: ['latin-ext'],
+  weight: ["400"],
+  subsets: ["latin-ext"],
 });
 
 export const metadata = {
@@ -19,7 +19,7 @@ const RootLayout: FC<PropsWithChildren<{}>> = ({ children }) => {
   return (
     <html lang="en" className={russo.className}>
       <body className="font-sans">
-        <Navbar />
+          <Navbar />
         {children}
       </body>
     </html>

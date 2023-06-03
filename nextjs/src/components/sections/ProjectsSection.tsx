@@ -7,7 +7,7 @@ import projects__fenderguitars from '@/public/images/projects__fenderguitars.png
 
 function ProjectsSection() {
   return (
-    <section>
+    <section className="flex flex-col w-full bg-zinc-900">
       <SectionTemplate title="Projects" description={undefined}>
         <Project
           title="Poker Finance"

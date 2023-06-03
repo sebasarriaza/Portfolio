@@ -10,7 +10,7 @@ function SectionTemplate({ title, description, children }: SectionTemplateProps)
   return (
     <>
       <a id={titleLowercased}></a>
-      <h2>{title}</h2>
+      <h2 className="-rotate-90 text-5xl">{title}</h2>
       {descriptionConditional}
       {children}
     </>

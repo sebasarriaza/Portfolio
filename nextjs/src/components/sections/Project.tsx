@@ -1,5 +1,4 @@
 import Image from "next/image";
-import projects__pokerfinance from "@/public/images/projects__pokerfinance.png";
 import Link from "next/link";
 
 type ProjectProps = {
