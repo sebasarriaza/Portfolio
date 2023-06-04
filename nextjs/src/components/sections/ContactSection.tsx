@@ -3,11 +3,11 @@ import Input from '../Input';
 
 function ContactSection() {
   return (
-    <section>
-      <SectionTemplate
-        title="Contact"
-        description="Contact me here!"
-      >
+    <SectionTemplate
+      title="Contact"
+      description="Contact me here!"
+    >
+      <section>
         <form id="form" action="https://formspree.io/f/myyvgpoe" method="POST">
           <ul>
             <Input type={'Name'}></Input>
@@ -15,8 +15,8 @@ function ContactSection() {
             <Input type={'Message'}></Input>
           </ul>
         </form>
-      </SectionTemplate>
-    </section>
+      </section>
+    </SectionTemplate>
   );
 }
 

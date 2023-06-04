@@ -1,21 +1,20 @@
 import SectionTemplate from "./SectionTemplate";
 import Project from "./Project";
-import projects__pokerfinance from '@/public/images/projects__pokerfinance.png'
+import pokerfinance from '@/public/images/pokerfinanceScreen.png'
 import projects__game from '@/public/images/projects__game.png'
 import projects__fenderguitars from '@/public/images/projects__fenderguitars.png'
 
 
 function ProjectsSection() {
   return (
-    <section className="flex flex-col w-full bg-zinc-900">
-      <SectionTemplate title="Projects" description={undefined}>
+    <SectionTemplate title="Projects" customTitle="My last project:" description={undefined}>
+        <section>
         <Project
           title="Poker Finance"
-          image={projects__pokerfinance.src}
+          image={pokerfinance.src}
           link="https://sj-poker-frontend.vercel.app/"
         />
-
-        <Project
+        {/* <Project
           title="Game"
           image={projects__game.src}
           link="https://sebasarriaza.github.io/Game/"
@@ -24,9 +23,9 @@ function ProjectsSection() {
           title="Fender Guitars"
           image={projects__fenderguitars.src}
           link="https://sites.google.com/view/fenderguitar"
-        />
-      </SectionTemplate>
+        /> */}
     </section>
+      </SectionTemplate>
   );
 }
 

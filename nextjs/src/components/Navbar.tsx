@@ -9,8 +9,13 @@ const Navbar: React.FC = () => {
     setOpenMenu(event.target.checked);
   };
 
+  const navigateToSection = (section:string) => {
+    document?.getElementById(section)?.scrollIntoView({ behavior: 'smooth'});
+  }
+  
+
   return (
-    <nav className="fixed flex justify-between w-[100%] menu-container">
+    <nav className="fixed flex justify-between w-[100%] menu-container z-20">
       <div className="flex p-5">
         <a href="#">
           <h3>Sebas Arriaza</h3>
@@ -20,7 +25,7 @@ const Navbar: React.FC = () => {
       <input
         type="checkbox"
         id="openmenu"
-        className="absolute z-3 top-5vh left-5vw w-10vw opacity-0 h-6vh"
+        className="absolute z-30 top-5vh left-5vw w-10vw opacity-0 h-6vh"
         checked={openMenu}
         onChange={handleCheckboxChange}
       />
@@ -47,19 +52,19 @@ const Navbar: React.FC = () => {
         <div className=" ">
             <ul className="flex flex-col items-end w-[100%] justify-end gap-4 ">
                 <li className="flex">
-                    <a className="flex font-thin" href="#projects">
-                    Projects<span className="text-xs">01</span>
-                    </a>
+                <button className="flex font-thin" onClick={() => navigateToSection("projects")}>
+                  Projects<span className="text-xs">01</span>
+                </button>
                 </li>
                 <li>
-                    <a className="flex" href="#about">
+                    <button className="flex" onClick={() => navigateToSection("about")}>
                     About<span className="text-xs">02</span>
-                    </a>
+                    </button>
                 </li>
                 <li>
-                    <a className="flex" href="#contact">
+                    <button className="flex" onClick={() => navigateToSection("contact")}>
                     Contact<span className="text-xs">03</span>
-                    </a>
+                    </button>
                 </li>
             </ul>
         </div>

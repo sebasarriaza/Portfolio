@@ -3,11 +3,11 @@ import {faInstagram, faTwitter, faGithub, faLinkedin} from "@fortawesome/free-br
 
 function Landing() {
   return (
-    <>
+    <div className="sticky top-0 z-0">
       <div className="flex flex-col mt-[60vh] absolute">
-        <SocialMedia icon={faInstagram} userName="sebasarriaza" />
-        <SocialMedia icon={faTwitter} userName="sebasarriaza" />
         <SocialMedia icon={faGithub} userName="sebasarriaza" />
+        <SocialMedia icon={faTwitter} userName="sebasarriaza" />
+        <SocialMedia icon={faInstagram} userName="sebasarriaza" />
         <SocialMedia
           icon={faLinkedin}
           userName="Sebas Arriaza"
@@ -18,9 +18,9 @@ function Landing() {
         <h1 className="text-4xl font-bold sm:text-6xl lg:text-[4rem] xl:text-[6rem] 2xl:text-[6.5rem]">
           <span>Sebas </span><span>Arriaza</span>
         </h1>
-        <h2 className="text-xl m-4">Frontend developer</h2>
+        <h2 className="text-xl m-4">web3 developer</h2>
       </div>
-    </>
+    </div>
   );
 }
 
