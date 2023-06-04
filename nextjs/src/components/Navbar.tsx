@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
                   to="projects"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={10}
                   duration={500}
                 >
                   Projects<span className="text-xs">01</span>
