@@ -23,19 +23,19 @@ type ProjectProps = {
 
 function Project({ title, image, link = `/${title.toLowerCase().replace(/\s/g, "")}` }: ProjectProps) {
   return (
-    <div className="border border-white rounded-xl mx-3 my-8 p-2 overflow-hidden">
-      <div>
-        <h3 className="pt-4 pb-6 text-2xl">{title}</h3>
+    <div className="border rounded-xl mx-3 my-9 p-2 overflow-hidden shadow-md shadow-zinc-800 lg:mx-12 lg:mt-8 lg:mb-16 lg:p-12 relative">
+      <div className="pt-4 pb-6">
+        <h3 className="text-2xl lg:text-4xl">{title}</h3>
       </div>
-      <div className="flex -mr-3">
+      <div className="py-2 -mr-3 lg:flex lg:justify-center lg:absolute lg:right-[5vw] lg:top-0 lg:h-[100%]">
         {image && (
-          <Image className="py-2" src={image} alt="" width={400} height={400} />
+          <Image className="lg:object-contain lg:w-[40vw]" src={image} alt="" width={400} height={400} />
         )}
       </div>
-      <div>
-        <p className="py-2 opacity-80 tracking-wider">Revolutionizing poker tournaments with a blockchain platform. Players receive funding, investors earn from winnings.</p>
+      <div className="py-2 lg:py-6 lg:w-[40vw]">
+        <p className="opacity-80 tracking-wider lg:text-lg">Revolutionizing poker tournaments with a blockchain platform. Players receive funding, investors earn from winnings.</p>
       </div>
-      <div className="flex justify-between py-2">
+      <div className="flex justify-between py-2 lg:w-[35vw] lg:py-6">
       <Image src={hardhat} alt="" height={30} width={30} />
       <Image src={ethers} alt="" height={30} width={30} />
       <Image src={alchemy} alt="" height={30} width={30} />
@@ -46,19 +46,19 @@ function Project({ title, image, link = `/${title.toLowerCase().replace(/\s/g, "
       <Image src={css3} alt="" height={30} width={30} />
       <Image src={git} alt="" height={30} width={30} />
       </div>
-      <div className="pt-4 flex">
+      <div className="pt-4 flex lg:pt-6">
         <Link href={link}>
-          <button type="button" className="flex items-center text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm text-center p-2 mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">
-          <FontAwesomeIcon className="w-6" icon={faGithub} />
-          <span className="pl-2">
+          <button type="button" className="flex items-center p-2 mr-1 mb-2 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm text-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800 lg:mr-2">
+          <FontAwesomeIcon className="w-5 h-5 lg:w-7 lg:h-7" icon={faGithub} />
+          <span className="pl-2 text-lg lg:text-xl">
             Source
           </span>
           </button>
         </Link>
         <Link href={link}>
-          <button type="button" className="flex items-center text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm text-center p-2 mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">
-          <FontAwesomeIcon className="w-5" icon={faArrowUpRightFromSquare} />
-          <span className="pl-2">
+          <button type="button" className="flex items-center p-2 ml-1 mb-2 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm text-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800 lg:ml-2">
+          <FontAwesomeIcon className="w-5 h-5" icon={faArrowUpRightFromSquare} />
+          <span className="pl-2 text-lg">
             Live
           </span>
           </button>

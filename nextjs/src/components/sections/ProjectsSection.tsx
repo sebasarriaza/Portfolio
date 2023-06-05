@@ -8,7 +8,7 @@ import projects__fenderguitars from '@/public/images/projects__fenderguitars.png
 function ProjectsSection() {
   return (
     <SectionTemplate title="Projects" customTitle="My last project:" description={undefined}>
-        <section>
+        <div>
         <Project
           title="Poker Finance"
           image={pokerfinance.src}
@@ -24,7 +24,7 @@ function ProjectsSection() {
           image={projects__fenderguitars.src}
           link="https://sites.google.com/view/fenderguitar"
         /> */}
-    </section>
+    </div>
       </SectionTemplate>
   );
 }
