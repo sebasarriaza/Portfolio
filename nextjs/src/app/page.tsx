@@ -7,9 +7,11 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-zinc-950">
       <Landing />
-      <ProjectsSection />
-      <AboutSection />
-      <ContactSection />
+      <div className='backdrop-blur-3xl'>
+        <ProjectsSection />
+        <AboutSection />
+        <ContactSection />
+      </div>
     </main>
   )
 }
