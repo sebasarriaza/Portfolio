@@ -13,16 +13,6 @@ function ProjectsSection() {
           image={pokerfinance.src}
           link="https://sj-poker-frontend.vercel.app/"
         />
-        {/* <Project
-          title="Game"
-          image={projects__game.src}
-          link="https://sebasarriaza.github.io/Game/"
-        />
-        <Project
-          title="Fender Guitars"
-          image={projects__fenderguitars.src}
-          link="https://sites.google.com/view/fenderguitar"
-        /> */}
       </SectionTemplate>
   );
 }
