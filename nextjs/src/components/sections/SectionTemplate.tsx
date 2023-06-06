@@ -1,26 +1,24 @@
 type SectionTemplateProps = {
   title?: string;
   customTitle?: string;
-  description?: string;
   children: React.ReactNode;
 };
 
 function SectionTemplate({
   title,
   customTitle,
-  description,
   children,
 }: SectionTemplateProps) {
   const titleOrCustomTitle = customTitle || title;
-  const descriptionElement = description ? <p>{description}</p> : null;
 
   return (
-    <section className="flex flex-col w-full bg-zinc-900 rounded-xl z-10 lg:py-[22vh]" id={title ? title.toLowerCase() : ''}>
-      <div className="flex">
-        <h2 className="px-5 pt-28 pb-8 text-5xl lg:pt-0">{titleOrCustomTitle}</h2>
+    <section className="flex flex-col w-full h-screen backdrop-blur-3xl rounded-xl z-10 pt-[15vh] lg:pt-[20vh]" id={title ? title.toLowerCase() : ''}>
+      <div className="flex text-5xl px-5 pb-[5vh] lg:pb-[0vh] lg:px-[4.4rem]">
+        <h2>{titleOrCustomTitle}</h2>
       </div>
-      {descriptionElement}
-      {children}
+      <div className="relative h-[80vh] mb-px p-8 border rounded-2xl bg-zinc-950 overflow-hidden lg:m-[4.4rem]">
+        {children}
+      </div>
     </section>
   );
 }
