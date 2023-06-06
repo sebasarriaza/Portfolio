@@ -1,6 +1,7 @@
 import SectionTemplate from "./SectionTemplate";
 import Project from "./Project";
-import pokerfinance from '@/public/images/pokerfinanceMockup.png'
+import pokerfinanceIcon from '@/public/images/pokerfinanceIcon2.png'
+import pokerfinanceMockup from '@/public/images/pokerfinanceMockup.png'
 
 
 function ProjectsSection() {
@@ -8,7 +9,8 @@ function ProjectsSection() {
     <SectionTemplate title="Projects" customTitle="My last project:">
         <Project
           title="Poker Finance"
-          image={pokerfinance.src}
+          icon={pokerfinanceIcon.src}
+          image={pokerfinanceMockup.src}
           liveLink="https://sj-poker-frontend.vercel.app/"
         />
       </SectionTemplate>

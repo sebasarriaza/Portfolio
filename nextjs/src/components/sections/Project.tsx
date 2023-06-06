@@ -23,11 +23,13 @@ type ProjectProps = {
   liveLink: string;
 };
 
-function Project({ title, image, liveLink}: ProjectProps) {
+function Project({ title, icon, image, liveLink}: ProjectProps) {
   return (
     <>
-      <div className="pt-4 pb-6">
-        {/* <Image src={icon} alt="" height={30} width={30} /> */}
+      <div className="flex pt-4 pb-6">
+      {icon && (
+          <Image src={icon} alt="" width={40} height={30}/>
+        )}
         <h3 className="text-2xl lg:text-4xl">{title}</h3>
       </div>
       <div className="py-2 lg:flex lg:justify-center lg:absolute lg:right-[5vw] lg:top-0 lg:h-[100%]">
