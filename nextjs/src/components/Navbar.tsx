@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
                   to="projects"
                   spy={true}
                   smooth={true}
-                  offset={10}
+                  offset={0}
                   duration={500}
                 >
                   Projects<span className="text-xs">01</span>
@@ -70,7 +70,7 @@ const Navbar: React.FC = () => {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={0}
                   duration={500}
                 >
                   About<span className="text-xs">02</span>
@@ -83,7 +83,7 @@ const Navbar: React.FC = () => {
                   to="contact"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={0}
                   duration={500}
                 >
                   Contact<span className="text-xs">03</span>

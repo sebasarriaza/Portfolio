@@ -5,7 +5,6 @@ function ContactSection() {
   return (
     <SectionTemplate
       title="Contact"
-      description="Contact me here!"
     >
       <section>
         <form id="form" action="https://formspree.io/f/myyvgpoe" method="POST">

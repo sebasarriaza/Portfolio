@@ -23,11 +23,11 @@ type ProjectProps = {
 
 function Project({ title, image, link = `/${title.toLowerCase().replace(/\s/g, "")}` }: ProjectProps) {
   return (
-    <div className="border rounded-xl mx-3 my-9 p-2 overflow-hidden shadow-md shadow-zinc-800 lg:mx-12 lg:mt-8 lg:mb-16 lg:p-12 relative">
+    <>
       <div className="pt-4 pb-6">
         <h3 className="text-2xl lg:text-4xl">{title}</h3>
       </div>
-      <div className="py-2 -mr-3 lg:flex lg:justify-center lg:absolute lg:right-[5vw] lg:top-0 lg:h-[100%]">
+      <div className="py-2 lg:flex lg:justify-center lg:absolute lg:right-[5vw] lg:top-0 lg:h-[100%]">
         {image && (
           <Image className="lg:object-contain lg:w-[40vw]" src={image} alt="" width={400} height={400} />
         )}
@@ -64,7 +64,7 @@ function Project({ title, image, link = `/${title.toLowerCase().replace(/\s/g, "
           </button>
         </Link>
       </div>
-    </div>
+    </>
   );
 }
 
