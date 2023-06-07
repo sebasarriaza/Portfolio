@@ -32,9 +32,9 @@ import kali from "@/public/images/kali.svg";
 function AboutSection() {
   return (
     <SectionTemplate title="About">
-      <section className="about">
-        <p className="about__description">I&apos;m a front-end developer. In the last four years I learnt a lot of skills and technologies:</p>
-        <p className="about__technologies">Web3 technologies: Solidity, Hardhat, Ethers, Wagmi, Rainbowkit, Chainlink oracles, ERC20, ERC721, ERC1155</p>
+      <section>
+        <p>I am a fullstack web3 developer. In recent years, I have focused on building a solid programming base and creating interesting projects. My experience lies in the development of innovative and visually appealing applications that provide effective solutions. These are my skills:.</p>
+        <p>Web3 technologies: Solidity, Hardhat, Ethers, Wagmi, Rainbowkit, Chainlink oracles, ERC20, ERC721, ERC1155</p>
         <div className="flex">
           <Image src={solidity} alt="" height={30} width={30} />
           <Image src={hardhat} alt="" height={30} width={30} />
@@ -44,7 +44,7 @@ function AboutSection() {
           <Image src={ethereum} alt="" height={30} width={30} />
           <Image src={polygon} alt="" height={30} width={30} />
         </div>
-        <p className="about__technologies">Web2 technologies: Javascript, Typescrypt, React, Vite, Nextjs, Prisma, T3</p>
+        <p>Web2 technologies: Javascript, Typescrypt, React, Vite, Nextjs, Prisma, T3</p>
         <div className="flex">
           <Image src={javascript} alt="" height={30} width={30} />
           <Image src={typescript} alt="" height={30} width={30} />
@@ -54,7 +54,7 @@ function AboutSection() {
           <Image src={prisma} alt="" height={30} width={30} />
           <Image src={t3} alt="" height={30} width={30} />
         </div>
-        <p className="about__technologies">UI/UX technologies: HTML, CSS, Sass, Tailwind, Material UI, Figma, Adobexd, Lightroom, Photoshop</p>
+        <p>UI/UX technologies: HTML, CSS, Sass, Tailwind, Material UI, Figma, Adobexd, Lightroom, Photoshop</p>
         <div className="flex">
           <Image src={html} alt="" height={30} width={30} />
           <Image src={css} alt="" height={30} width={30} />
@@ -66,7 +66,7 @@ function AboutSection() {
           <Image src={adobexd} alt="" height={30} width={30} />
           <Image src={photoshop} alt="" height={30} width={30} />
         </div>
-        <p className="about__technologies">Other technologies: GIT, Turborepo Bash, Linux</p>
+        <p>Other technologies: GIT, Turborepo Bash, Linux</p>
         <div className="flex">
           <Image src={git} alt="" height={30} width={30} />
           <Image src={turborepo} alt="" height={30} width={30} />
