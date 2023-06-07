@@ -27,76 +27,63 @@ import adobexd from "@/public/images/adobexd.svg";
 import photoshop from "@/public/images/photoshop.svg";
 import git from "@/public/images/git.svg";
 import turborepo from "@/public/images/turborepo.svg";
-import bash from "@/public/images/bash.svg";
-import kali from "@/public/images/kali.svg";
 
 function AboutSection() {
   return (
     <SectionTemplate title="About">
-      <div>
-        <p className="tracking-wider lg:text-lg">
-          I am a fullstack web3 developer. In recent years, I have focused on
-          building a solid programming base and creating interesting projects.
-          My experience lies in the development of innovative and visually
-          appealing applications that provide effective solutions. These are my
-          skills:
+        <p className="tracking-wider lg:text-xl lg:p-4">
+        I am a fullstack web3 developer based in Spain. Over the past few years, I have focused on building a strong programming foundation and developing innovative projects that provide effective solutions. These are my skills:
         </p>
-        <div className="flex flex-col lg:flex-row lg:justify-between">
-          <div className="flex flex-col justify-center">
-            <p>
-              Web3 technologies:
-            </p>
-            <div className="grid grid-cols-5 gap-4 lg:grid-cols-3">
-                <Image src={solidity} alt="" height={30} width={30} />
-                <Image src={hardhat} alt="" height={30} width={30} />
-                <Image src={ethers} alt="" height={30} width={30} />
-                <Image src={wagmi} alt="" height={30} width={30} />
-                <Image src={rainbowkit} alt="" height={30} width={30} />
-                <Image src={chainlink} alt="" height={30} width={30} />
-                <Image src={alchemy} alt="" height={30} width={30} />
-                <Image src={ethereum} alt="" height={30} width={30} />
-                <Image src={polygon} alt="" height={30} width={30} />
+        <div className="flex flex-col items-center lg:flex-row lg:justify-between">
+            <div className="relative w-full flex flex-col justify-center items-center py-8 lg:py-12">
+              <div className="absolute opacity-10 flex justify-center text-8xl">
+                <p>web3</p>
+              </div>
+              <div className="w-full grid grid-cols-5 gap-2 place-items-center lg:grid-cols-3 lg:gap-5 lg:px-16">
+                  <Image className="lg:w-[45px]" src={solidity} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={hardhat} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={ethers} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={wagmi} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={rainbowkit} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={chainlink} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={alchemy} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={ethereum} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={polygon} alt="" height={30} width={30} />
+              </div>
+            </div>
+          <div className="relative w-full flex flex-col justify-center items-center py-8 lg:py-12">
+            <div className="absolute opacity-10 flex justify-center text-8xl">
+              <p>web2</p>
+            </div>
+            <div className="w-full grid grid-cols-5 gap-2 place-items-center lg:grid-cols-3 lg:gap-5 lg:px-16">
+                <Image className="lg:w-[45px]" src={t3} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={prisma} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={nextjs} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={vite} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={react} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={typescript} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={javascript} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={git} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={turborepo} alt="" height={30} width={30} />
             </div>
           </div>
-          <div>
-            <p>Web2 technologies:</p>
-            <div className="grid grid-cols-5 gap-4 lg:grid-cols-3">
-                <Image src={javascript} alt="" height={30} width={30} />
-                <Image src={typescript} alt="" height={30} width={30} />
-                <Image src={react} alt="" height={30} width={30} />
-                <Image src={vite} alt="" height={30} width={30} />
-                <Image src={nextjs} alt="" height={30} width={30} />
-                <Image src={prisma} alt="" height={30} width={30} />
-                <Image src={t3} alt="" height={30} width={30} />
+          <div className="relative w-full flex flex-col justify-center items-center py-8 lg:py-12">
+            <div className="absolute opacity-10 flex justify-center text-8xl">
+              <p>UI/UX</p>
             </div>
-          </div>
-          <div>
-            <p>
-              UI/UX technologies:
-            </p>
-            <div className="grid grid-cols-5 gap-4 lg:grid-cols-3">
-                <Image src={html} alt="" height={30} width={30} />
-                <Image src={css} alt="" height={30} width={30} />
-                <Image src={sass} alt="" height={30} width={30} />
-                <Image src={tailwind} alt="" height={30} width={30} />
-                <Image src={materialui} alt="" height={30} width={30} />
-                <Image src={chakra} alt="" height={30} width={30} />
-                <Image src={figma} alt="" height={30} width={30} />
-                <Image src={adobexd} alt="" height={30} width={30} />
-                <Image src={photoshop} alt="" height={30} width={30} />
-            </div>
-          </div>
-          <div>
-            <p>Other technologies:</p>
-            <div className="grid grid-cols-5 gap-4 lg:grid-cols-3">
-                <Image src={git} alt="" height={30} width={30} />
-                <Image src={turborepo} alt="" height={30} width={30} />
-                <Image src={bash} alt="" height={30} width={30} />
-                <Image src={kali} alt="" height={30} width={30} />
+            <div className="w-full grid grid-cols-5 gap-2 place-items-center lg:grid-cols-3 lg:gap-5 lg:px-16">
+                <Image className="lg:w-[45px]" src={html} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={css} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={sass} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={tailwind} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={materialui} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={chakra} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={figma} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={adobexd} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={photoshop} alt="" height={30} width={30} />
             </div>
           </div>
         </div>
-      </div>
     </SectionTemplate>
   );
 }
