@@ -4,7 +4,7 @@ import {faInstagram, faTwitter, faGithub, faLinkedin} from "@fortawesome/free-br
 function Landing() {
   return (
     <div className="sticky top-0 z-0">
-      <div className="flex flex-col mt-[60vh] absolute">
+      <div className="absolute flex flex-col mt-[60vh]">
         <SocialMedia icon={faGithub} userName="sebasarriaza" />
         <SocialMedia icon={faTwitter} userName="sebasarriaza" />
         <SocialMedia icon={faInstagram} userName="sebasarriaza" />
