@@ -3,7 +3,7 @@ import { Russo_One } from "next/font/google";
 import { APP_NAME, APP_DESCRIPTION } from "@/lib/consts";
 import { FC, PropsWithChildren } from "react";
 import Navbar from "@/components/Navbar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Footer from "@/components/Footer";
 
 const russo = Russo_One({
   weight: ["400"],
@@ -20,7 +20,8 @@ const RootLayout: FC<PropsWithChildren<{}>> = ({ children }) => {
     <html lang="en" className={russo.className}>
       <body className="font-sans">
           <Navbar />
-        {children}
+          {children}
+          <Footer />
       </body>
     </html>
   );

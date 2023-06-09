@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="fixed flex justify-between w-[100%] z-20">
-      <div className="flex p-5 h-fit">
+      <div className="flex p-5 lg:p-8 h-fit">
         <a href="#">
           <h3>Sebas Arriaza</h3>
         </a>
@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
         onChange={handleCheckboxChange}
       />
 
-      <div className="p-5">
+      <div className="p-5 lg:p-8">
         <div className="flex justify-end">
           <label htmlFor="openmenu">
             <span
