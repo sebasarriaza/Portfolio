@@ -53,7 +53,7 @@ function Project({ title, icon, image, liveLink}: ProjectProps) {
       <Image src={git} alt="git" height={30} width={30} />
       </div>
       <div className="pt-4 flex lg:pt-6">
-        <Link href={""}>
+        <Link href={"https://github.com/sebasarriaza/PokerFinance-Frontend"}>
           <button type="button" className="flex items-center p-2 mr-1 mb-2 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm text-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800 lg:mr-2">
           <FontAwesomeIcon className="w-5 h-5 lg:w-7 lg:h-7" icon={faGithub} />
           <span className="pl-2 text-lg lg:text-xl">
