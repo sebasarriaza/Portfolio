@@ -12,7 +12,7 @@ function SectionTemplate({
   const titleOrCustomTitle = customTitle || title;
 
   return (
-    <section className="flex flex-col w-full h-screen z-10 pt-[15vh] lg:h-fit lg:pt-[20vh]" id={title ? title.toLowerCase() : ''}>
+    <section className="flex flex-col w-full h-screen z-10 pt-[15vh] lg:pt-[20vh]" id={title ? title.toLowerCase() : ''}>
       <div className="flex text-5xl px-5 pb-[5vh] lg:pb-[0vh] lg:px-[4.4rem]">
         <h2>{titleOrCustomTitle}</h2>
       </div>
