@@ -9,8 +9,8 @@ function ContactSection() {
     const messageInput = (document.getElementById('messageInput') as HTMLInputElement).value;
 
     if (nameInput === '' || emailInput === '' || messageInput === '') {
-      alert('Por favor, completa todos los campos');
-      event.preventDefault(); // Evita el envío del formulario si los campos están vacíos
+      alert('Please fill in all the fields');
+      event.preventDefault();
     }
   };
 
