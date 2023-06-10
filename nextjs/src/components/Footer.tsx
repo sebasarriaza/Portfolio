@@ -30,11 +30,13 @@ const Footer: React.FC = () => {
   return (
     <Element id="footerContent" name="footer">
       {showFooter && (
-        <div className="fixed w-full bottom-0 flex justify-between p-5 lg:p-8">
+        <div className="fixed w-full bottom-0 flex justify-between p-5 lg:px-8">
             <p>© 2023 Sebas Arriaza</p>
           <div>
-            <FontAwesomeIcon className="w-8" icon={faArrowUp} />
-            <button onClick={scroll.scrollToTop}>Back to top</button>
+            <button onClick={scroll.scrollToTop}>
+              <FontAwesomeIcon className="w-8" icon={faArrowUp} />
+              Back to top
+              </button>
           </div>
         </div>
       )}
