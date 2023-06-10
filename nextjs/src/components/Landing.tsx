@@ -1,5 +1,6 @@
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "./SocialMedia";
-import {faInstagram, faTwitter, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faInstagram, faTwitter, faGithub} from "@fortawesome/free-brands-svg-icons";
 
 function Landing() {
   return (
@@ -9,9 +10,9 @@ function Landing() {
         <SocialMedia icon={faTwitter} userName="sebasarriaza" />
         <SocialMedia icon={faInstagram} userName="sebasarriaza" />
         <SocialMedia
-          icon={faLinkedin}
-          userName="Sebas Arriaza"
-          link="https://www.linkedin.com/in/sebas-arriaza-218a6320b/"
+          icon={faEnvelope}
+          userName="contact@sebasarriaza.com"
+          link="mailto:contact@sebasarriaza.com"
         />
       </div>
       <div className="flex flex-col items-center justify-center pt-[30vh] pb-[60vh]">
