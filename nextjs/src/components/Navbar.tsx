@@ -5,8 +5,8 @@ import { Link, Element } from "react-scroll";
 const Navbar: React.FC = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
-  const handleCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setOpenMenu(event.target.checked);
+  const handleClick = () => {
+    setOpenMenu(!openMenu);
   };
 
   return (
@@ -17,30 +17,22 @@ const Navbar: React.FC = () => {
         </a>
       </div>
 
-      <input
-        type="checkbox"
-        id="openmenu"
-        className="absolute z-30 top-5vh left-5vw w-10vw opacity-0 h-6vh"
-        checked={openMenu}
-        onChange={handleCheckboxChange}
-      />
-
       <div className="p-5 lg:p-8">
         <div className="flex justify-end">
-          <label htmlFor="openmenu">
-            <span
-              className={`bg-white h-[0.1rem] w-7 block my-[0.4rem] transition duration-700 ease-in-out
+          <div className="cursor-pointer h-full" onClick={handleClick}>
+              <span
+                className={`bg-white h-[0.1rem] w-7 block my-[0.4rem] transition duration-700 ease-in-out
                 ${
                   openMenu
                     ? "translate-y-[500%] rotate-[-45deg]"
                     : "transform-none"
                 }`}
-            ></span>
-            <span
-              className={`bg-white h-[0.1rem] w-7 block my-[0.4rem] transition duration-700 ease-in-out
+              ></span>
+              <span
+                className={`bg-white h-[0.1rem] w-7 block my-[0.4rem] transition duration-700 ease-in-out
                 ${openMenu ? "rotate-[45deg]" : "transform-none"}`}
-            ></span>
-          </label>
+              ></span>
+          </div>
         </div>
         <div
           className={`
