@@ -1,7 +1,7 @@
 import SectionTemplate from "./SectionTemplate";
 import Project from "./Project";
-import pokerfinanceIcon from '@/public/images/pokerfinanceIcon.png'
-import pokerfinanceMockup from '@/public/images/pokerfinanceMockup.png'
+import pokerfinanceIcon from '@/../public/images/pokerfinanceIcon.png'
+import pokerfinanceMockup from '@/../public/images/pokerfinanceMockup.png'
 
 
 function ProjectsSection() {

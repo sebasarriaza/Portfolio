@@ -3,16 +3,16 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
-import solidity from "@/public/images/solidity.svg";
-import hardhat from "@/public/images/hardhat.svg";
-import ethers from "@/public/images/ethers.svg";
-import alchemy from "@/public/images/alchemy.svg";
-import polygon from "@/public/images/polygon.svg";
-import nextjs from "@/public/images/nextjs.svg";
-import react from "@/public/images/react.svg";
-import typescript from "@/public/images/typescript.svg";
-import css from "@/public/images/css.svg";
-import git from "@/public/images/git.svg";
+import solidity from "@/../public/images/solidity.svg";
+import hardhat from "@/../public/images/hardhat.svg";
+import ethers from "@/../public/images/ethers.svg";
+import alchemy from "@/../public/images/alchemy.svg";
+import polygon from "@/../public/images/polygon.svg";
+import nextjs from "@/../public/images/nextjs.svg";
+import react from "@/../public/images/react.svg";
+import typescript from "@/../public/images/typescript.svg";
+import css from "@/../public/images/css.svg";
+import git from "@/../public/images/git.svg";
 
 
 type ProjectProps = {
