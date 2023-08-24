@@ -20,7 +20,7 @@ const RootLayout: FC<PropsWithChildren<{}>> = ({ children }) => {
     <html lang="en" className={russo.className}>
       <body className="font-sans">
           <Navbar />
-          {children}
+            {children}
           <Footer />
       </body>
     </html>
