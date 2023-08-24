@@ -1,11 +1,12 @@
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "./SocialMedia";
-import {faInstagram, faXTwitter, faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faInstagram, faXTwitter, faGithub, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
 
 function Landing() {
   return (
     <div className="sticky top-0 z-0">
-      <div className="absolute flex flex-col mt-[60vh]">
+      <div className="absolute flex flex-col mt-[45vh]">
+        <SocialMedia icon={faLinkedinIn} userName="sebasarriaza" />
         <SocialMedia icon={faGithub} userName="sebasarriaza" />
         <SocialMedia icon={faXTwitter} userName="sebasarriaza" />
         <SocialMedia icon={faInstagram} userName="sebasarriaza" />
