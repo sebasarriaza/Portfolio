@@ -32,15 +32,15 @@ function Project({ title, icon, image, liveLink}: ProjectProps) {
         )}
         <h3 className="text-2xl lg:text-4xl">{title}</h3>
       </div>
-      <div className="py-2 lg:flex lg:justify-center lg:absolute lg:right-[5vw] lg:top-0 lg:h-[100%]">
+      <div className="py-2 lg:flex lg:justify-end lg:absolute lg:right-[5%] lg:top-0 lg:h-[100%] lg:pl-[40vw] xl:pl-0">
         {image && (
-          <Image className="lg:object-contain lg:w-[40vw]" src={image} alt="" width={400} height={400} />
+          <Image className="lg:object-contain lg:w-[90%]" src={image} alt="" width={400} height={400} />
         )}
       </div>
-      <div className="py-2 lg:py-6 lg:w-[40vw]">
+      <div className="py-2 lg:py-6 lg:w-[40vw] lg:max-w-[50%]">
         <p className="opacity-80 tracking-wider lg:text-lg">Revolutionizing poker tournaments with a blockchain platform. Players receive funding, investors earn from winnings.</p>
       </div>
-      <div className="flex justify-between py-2 lg:w-[35vw] lg:py-6">
+      <div className="flex justify-between py-2 lg:w-[35vw] lg:max-w-[50%] lg:py-6">
       <Image src={solidity} alt="solidity" height={30} width={30} />
       <Image src={hardhat} alt="hardhat" height={30} width={30} />
       <Image src={ethers} alt="ethers" height={30} width={30} />
