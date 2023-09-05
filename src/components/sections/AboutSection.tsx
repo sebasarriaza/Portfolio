@@ -8,8 +8,8 @@ import rainbowkit from "@/../public/images/rainbowkit.svg";
 import alchemy from "@/../public/images/alchemy.svg";
 import chainlink from "@/../public/images/chainlink.svg";
 import ethereum from "@/../public/images/ethereum.svg";
-import polygon from "@/../public/images/polygon.svg";
-import javascript from "@/../public/images/javascript.svg";
+import foundry from "@/../public/images/foundry.svg";
+import docker from "@/../public/images/docker.svg";
 import typescript from "@/../public/images/typescript.svg";
 import react from "@/../public/images/react.svg";
 import vite from "@/../public/images/vite.svg";
@@ -41,6 +41,7 @@ function AboutSection() {
               </div>
               <div className="w-full grid grid-cols-5 gap-2 place-items-center lg:grid-cols-3 lg:gap-5 lg:px-16">
                   <Image className="lg:w-[45px]" src={solidity} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px] invert" src={foundry} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={hardhat} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={ethers} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={wagmi} alt="" height={30} width={30} />
@@ -48,7 +49,6 @@ function AboutSection() {
                   <Image className="lg:w-[45px]" src={chainlink} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={alchemy} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={ethereum} alt="" height={30} width={30} />
-                  <Image className="lg:w-[45px]" src={polygon} alt="" height={30} width={30} />
               </div>
             </div>
           <div className="relative w-full flex flex-col justify-center items-center py-8 lg:py-12">
@@ -62,7 +62,7 @@ function AboutSection() {
                 <Image className="lg:w-[45px]" src={vite} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={react} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={typescript} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={javascript} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={docker} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={git} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={turborepo} alt="" height={30} width={30} />
             </div>
