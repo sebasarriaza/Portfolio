@@ -20,7 +20,7 @@ function Landing() {
         <h1 className="text-4xl font-bold sm:text-6xl lg:text-[4rem] xl:text-[6rem] 2xl:text-[6.5rem]">
           <span>Sebas </span><span>Arriaza</span>
         </h1>
-        <h2 className="text-xl m-4">web3 developer</h2>
+        <h2 className="text-xl m-4">Fullstack Web3 Developer</h2>
       </div>
     </div>
   );
