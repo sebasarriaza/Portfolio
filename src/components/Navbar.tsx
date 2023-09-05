@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
         >
           <div className=" ">
             <ul className="flex flex-col items-end w-[100%] justify-end gap-4 ">
-              <li className="flex">
+              <li className="cursor-pointer">
                 <Link
                   className="flex font-thin"
                   activeClass="active"
@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
                   Projects<span className="text-xs">01</span>
                 </Link>
               </li>
-              <li>
+              <li className="cursor-pointer">
                 <Link
                   className="flex"
                   activeClass="active"
@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
                   About<span className="text-xs">02</span>
                 </Link>
               </li>
-              <li>
+              <li className="cursor-pointer">
                 <Link
                   className="flex"
                   activeClass="active"
