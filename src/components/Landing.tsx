@@ -6,9 +6,9 @@ function Landing() {
   return (
     <div className="sticky top-0 z-0">
       <div className="absolute flex flex-col mt-[45vh] xl:mt-[55vh]">
-        <SocialMedia icon={faLinkedinIn} userName="sebasarriaza" />
+        <SocialMedia icon={faLinkedinIn} userName="sebasarriaza" link="https://www.linkedin.com/in/sebasarriaza/" />
         <SocialMedia icon={faGithub} userName="sebasarriaza" />
-        <SocialMedia icon={faXTwitter} userName="sebasarriaza" />
+        <SocialMedia icon={faXTwitter} userName="sebasarriaza" link="https://twitter.com/sebasarriaza"/>
         <SocialMedia icon={faInstagram} userName="sebasarriaza" />
         <SocialMedia
           icon={faEnvelope}
