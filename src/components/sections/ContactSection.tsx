@@ -44,7 +44,7 @@ function ContactSection() {
   return (
     <SectionTemplate title="Contact">
       <p className="mb-3 tracking-wider lg:text-xl lg:p-4">
-        Feel free to reach out to me for any inquiries, collaborations, or projects where I can be of assistance!
+      Contact me if you're looking for a dedicated professional for any inquiries, collaborations, or projects where I can be of help!
       </p>
       <form className='text-black' onSubmit={handleFormSubmit}>
         <div className='flex flex-col lg:flex-row lg:justify-between'>
