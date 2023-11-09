@@ -9,7 +9,7 @@ export default function Home() {
       <Landing />
       <div className='backdrop-blur-3xl 2xl:flex 2xl:flex-col 2xl:items-center'>
         <div className='2xl:max-w-screen-2xl'>
-          <ProjectsSection />
+          {/* <ProjectsSection /> */}
           <AboutSection />
           <ContactSection />
         </div>
