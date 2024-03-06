@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
                   offset={0}
                   duration={500}
                 >
-                  Projects<span className="text-xs">01</span>
+                  Projects
                 </Link>
               </li> */}
               <li className="cursor-pointer">
@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
                   offset={0}
                   duration={500}
                 >
-                  About<span className="text-xs">01</span>
+                  About
                 </Link>
               </li>
               <li className="cursor-pointer">
@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
                   offset={0}
                   duration={500}
                 >
-                  Contact<span className="text-xs">02</span>
+                  Contact
                 </Link>
               </li>
             </ul>
