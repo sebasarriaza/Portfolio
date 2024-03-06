@@ -32,7 +32,7 @@ function AboutSection() {
   return (
     <SectionTemplate title="About">
         <p className="tracking-wider lg:text-xl lg:p-4">
-        I am a fullstack web3 developer based in Spain. Over the past few years, I have focused on building a strong programming foundation and developing innovative projects that provide effective solutions. These are my skills:
+        Fullstack web3 developer based in Spain. Focused on developing innovative projects that provide effective solutions. These are my skills:
         </p>
         <div className="flex flex-col items-center lg:flex-row lg:justify-between">
             <div className="relative w-full flex flex-col justify-center items-center py-8 lg:py-12">
