@@ -18,7 +18,7 @@ export const metadata = {
 const RootLayout: FC<PropsWithChildren<{}>> = ({ children }) => {
   return (
     <html lang="en" className={russo.className}>
-      <body className="font-sans">
+      <body className="font-sans text-white">
           <Navbar />
             {children}
           <Footer />
