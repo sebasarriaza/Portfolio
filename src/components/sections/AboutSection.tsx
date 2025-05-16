@@ -12,10 +12,11 @@ import foundry from "@/../public/images/foundry.svg";
 import docker from "@/../public/images/docker.svg";
 import typescript from "@/../public/images/typescript.svg";
 import react from "@/../public/images/react.svg";
-import vite from "@/../public/images/vite.svg";
 import nextjs from "@/../public/images/nextjs.svg";
 import prisma from "@/../public/images/prisma.svg";
-import t3 from "@/../public/images/t3.svg";
+import supabase from "@/../public/images/supabase.svg";
+import postgresql from "@/../public/images/postgresql.svg";
+import redis from "@/../public/images/redis.svg";
 import html from "@/../public/images/html.svg";
 import css from "@/../public/images/css.svg";
 import sass from "@/../public/images/sass.svg";
@@ -26,7 +27,6 @@ import figma from "@/../public/images/figma.svg";
 import adobexd from "@/../public/images/adobexd.svg";
 import photoshop from "@/../public/images/photoshop.svg";
 import git from "@/../public/images/git.svg";
-import turborepo from "@/../public/images/turborepo.svg";
 
 function AboutSection() {
   return (
@@ -56,15 +56,15 @@ function AboutSection() {
               <p>web2</p>
             </div>
             <div className="w-full grid grid-cols-5 gap-2 place-items-center lg:grid-cols-3 lg:gap-5 lg:px-16">
-                <Image className="lg:w-[45px]" src={t3} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={prisma} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={nextjs} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={vite} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={supabase} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={prisma} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={react} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={typescript} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={docker} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={git} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={turborepo} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={postgresql} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={redis} alt="" height={30} width={30} />
             </div>
           </div>
           <div className="relative w-full flex flex-col justify-center items-center py-8 lg:py-12">
