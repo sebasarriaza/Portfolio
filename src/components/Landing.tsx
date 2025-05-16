@@ -12,7 +12,7 @@ function Landing() {
           link="mailto:contact@sebasarriaza.com"
         />
         <SocialMedia icon={faLinkedinIn} userName="sebasarriaza" link="https://www.linkedin.com/in/sebasarriaza/" />
-        <SocialMedia icon={faGithub} userName="sebasarriaza" />
+        {/* <SocialMedia icon={faGithub} userName="sebasarriaza" /> */}
         {/* <SocialMedia icon={faXTwitter} userName="sebasarriaza" link="https://twitter.com/sebasarriaza"/> */}
         <SocialMedia icon={faInstagram} userName="sebasarriaza" />
       </div>
