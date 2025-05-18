@@ -3,8 +3,8 @@ import Image from "next/image";
 import n8n from "@/../public/images/n8n.svg";
 import make from "@/../public/images/make.svg";
 import chatwoot from "@/../public/images/chatwoot.svg";
-import postgresql from "@/../public/images/postgresql.svg";
-import redis from "@/../public/images/redis.svg";
+import cursor from "@/../public/images/cursor.ico";
+import railway from "@/../public/images/railway.svg";
 import notion from "@/../public/images/notion.svg";
 import openai from "@/../public/images/openai.svg";
 import elevenlabs from "@/../public/images/elevenlabs.png";
@@ -15,8 +15,8 @@ import react from "@/../public/images/react.svg";
 import nextjs from "@/../public/images/nextjs.svg";
 import prisma from "@/../public/images/prisma.svg";
 import supabase from "@/../public/images/supabase.svg";
-import postgres from "@/../public/images/postgresql.svg";
-import redisdb from "@/../public/images/redis.svg";
+import postgresql from "@/../public/images/postgresql.svg";
+import redis from "@/../public/images/redis.svg";
 import html from "@/../public/images/html.svg";
 import css from "@/../public/images/css.svg";
 import sass from "@/../public/images/sass.svg";
@@ -43,8 +43,8 @@ function AboutSection() {
                   <Image className="lg:w-[45px]" src={n8n} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={make} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={chatwoot} alt="" height={30} width={30} />
-                  <Image className="lg:w-[45px]" src={postgresql} alt="" height={30} width={30} />
-                  <Image className="lg:w-[45px]" src={redis} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={cursor} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={railway} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={notion} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={openai} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={elevenlabs} alt="" height={30} width={30} />
@@ -59,12 +59,12 @@ function AboutSection() {
                 <Image className="lg:w-[45px]" src={nextjs} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={supabase} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={prisma} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={react} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={typescript} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={react} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={docker} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={git} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={postgres} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={redisdb} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={postgresql} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={redis} alt="" height={30} width={30} />
             </div>
           </div>
           <div className="relative w-full flex flex-col justify-center items-center py-8 lg:py-12">
