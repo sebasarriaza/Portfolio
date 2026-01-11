@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
     <Element id="footerContent" name="footer">
       {showFooter && (
         <div className="fixed w-full bottom-0 flex justify-between p-5 lg:px-8">
-            <p>© 2025 Sebas Arriaza</p>
+            <p>© 2026 Sebas Arriaza</p>
           <div>
             <button onClick={scroll.scrollToTop}>
               <FontAwesomeIcon className="w-8" icon={faArrowUp} />
