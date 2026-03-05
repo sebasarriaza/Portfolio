@@ -3,7 +3,7 @@ import Image from "next/image";
 import n8n from "@/../public/images/n8n.svg";
 import make from "@/../public/images/make.svg";
 import chatwoot from "@/../public/images/chatwoot.svg";
-import cursor from "@/../public/images/cursor.png";
+import cursor from "@/../public/images/cursor.svg";
 import railway from "@/../public/images/railway.svg";
 import notion from "@/../public/images/notion.svg";
 import openai from "@/../public/images/openai.svg";
