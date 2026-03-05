@@ -13,18 +13,18 @@ import docker from "@/../public/images/docker.svg";
 import typescript from "@/../public/images/typescript.svg";
 import react from "@/../public/images/react.svg";
 import nextjs from "@/../public/images/nextjs.svg";
-import prisma from "@/../public/images/prisma.svg";
+import digitalocean from "@/../public/images/digitalocean.svg";
 import supabase from "@/../public/images/supabase.svg";
 import postgresql from "@/../public/images/postgresql.svg";
 import redis from "@/../public/images/redis.svg";
+import shadcnui from "@/../public/images/shadcnui.svg";
+import v0 from "@/../public/images/v0.svg";
+import tailwind from "@/../public/images/tailwind.svg";
+import figma from "@/../public/images/figma.svg";
 import html from "@/../public/images/html.svg";
 import css from "@/../public/images/css.svg";
-import sass from "@/../public/images/sass.svg";
-import tailwind from "@/../public/images/tailwind.svg";
 import materialui from "@/../public/images/materialui.svg";
-import chakra from "@/../public/images/chakra.svg";
-import figma from "@/../public/images/figma.svg";
-import adobexd from "@/../public/images/adobexd.svg";
+import canva from "@/../public/images/canva.svg";
 import photoshop from "@/../public/images/photoshop.svg";
 import git from "@/../public/images/git.svg";
 
@@ -58,7 +58,7 @@ function AboutSection() {
             <div className="w-full grid grid-cols-5 gap-2 place-items-center lg:grid-cols-3 lg:gap-5 lg:px-16">
                 <Image className="lg:w-[45px]" src={nextjs} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={supabase} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={prisma} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={digitalocean} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={typescript} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={react} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={docker} alt="" height={30} width={30} />
@@ -72,14 +72,14 @@ function AboutSection() {
               <p>UI/UX</p>
             </div>
             <div className="w-full grid grid-cols-5 gap-2 place-items-center lg:grid-cols-3 lg:gap-5 lg:px-16">
+                <Image className="lg:w-[45px]" src={shadcnui} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={v0} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={tailwind} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={figma} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={html} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={css} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={sass} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={tailwind} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={materialui} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={chakra} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={figma} alt="" height={30} width={30} />
-                <Image className="lg:w-[45px]" src={adobexd} alt="" height={30} width={30} />
+                <Image className="lg:w-[45px]" src={canva} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={photoshop} alt="" height={30} width={30} />
             </div>
           </div>
