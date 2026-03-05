@@ -1,12 +1,12 @@
 import SectionTemplate from "./SectionTemplate";
 import Image from "next/image";
+import claude from "@/../public/images/claude.svg";
+import cursor from "@/../public/images/cursor.svg";
+import vercel from "@/../public/images/vercel.svg";
 import n8n from "@/../public/images/n8n.svg";
 import make from "@/../public/images/make.svg";
-import chatwoot from "@/../public/images/chatwoot.svg";
-import cursor from "@/../public/images/cursor.svg";
 import railway from "@/../public/images/railway.svg";
 import notion from "@/../public/images/notion.svg";
-import openai from "@/../public/images/openai.svg";
 import elevenlabs from "@/../public/images/elevenlabs.png";
 import meta from "@/../public/images/meta.svg";
 import docker from "@/../public/images/docker.svg";
@@ -40,13 +40,13 @@ function AboutSection() {
                 <p>AI</p>
               </div>
               <div className="w-full grid grid-cols-5 gap-2 place-items-center lg:grid-cols-3 lg:gap-5 lg:px-16">
+                  <Image className="lg:w-[45px]" src={claude} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={cursor} alt="" height={30} width={30} />
+                  <Image className="lg:w-[45px]" src={vercel} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={n8n} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={make} alt="" height={30} width={30} />
-                  <Image className="lg:w-[45px]" src={chatwoot} alt="" height={30} width={30} />
-                  <Image className="lg:w-[45px]" src={cursor} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={railway} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={notion} alt="" height={30} width={30} />
-                  <Image className="lg:w-[45px]" src={openai} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={elevenlabs} alt="" height={30} width={30} />
                   <Image className="lg:w-[45px]" src={meta} alt="" height={30} width={30} />
               </div>
