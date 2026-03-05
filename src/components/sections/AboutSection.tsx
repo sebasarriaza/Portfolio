@@ -72,7 +72,7 @@ function AboutSection() {
               <p>UI/UX</p>
             </div>
             <div className="w-full grid grid-cols-5 gap-2 place-items-center lg:grid-cols-3 lg:gap-5 lg:px-16">
-                <Image className="lg:w-[45px]" src={shadcnui} alt="" height={30} width={30} />
+                <Image className="lg:w-[35px]" src={shadcnui} alt="" height={24} width={24} />
                 <Image className="lg:w-[45px]" src={v0} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={tailwind} alt="" height={30} width={30} />
                 <Image className="lg:w-[45px]" src={figma} alt="" height={30} width={30} />
